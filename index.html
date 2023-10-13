@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jennex Food</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!--Navbar-->
+    <div id="home">
+    <nav class=" relative container mx-auto p-6" >
+        <!--Flex Container-->
+        <div class="flex items-center justify-between">
+            <div class="pt-2">
+                <h3 class="text-white max-w-sm text-2xl bg-orange-400  rounded border p-2">Jennex Food</h3>
+            </div>
+            <!--Menu List-->
+            <div class="hidden md:flex space-x-6">
+                <a href="#home" class=" text-white hover:text-orange-600 font-semibold cursor-pointer">Home</a>
+                <a href="#products" class=" text-white hover:text-orange-600 font-semibold cursor-pointer">Product</a>
+                <a href="#about" class=" text-white hover:text-orange-600 font-semibold cursor-pointer">About</a>
+                <a href="#contact" class=" text-white hover:text-orange-600 font-semibold cursor-pointer">Contact</a>
+            </div>
+            <!--Hamburger Menu-->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+          <div class="md:hidden">
+            <div id="menu" class=" absolute  flex-col font-bold items-center self-end hidden py-8
+             bg-orange-600 space-y-6 sm:w-auto sm:self-center drop shadow left-6 right-6">
+               <a href="#home">Home</a>
+               <a href="#products">Product</a>
+               <a href="#about">About</a>
+               <a href="#contact">Contact</a>
+    </div>
+          </div>
+
+
+
+    </nav>
+    <!--Order Section -->
+    <div class="container flex flex-col mt-16 space-y-12 items-center ">
+        <h1 class="max-w-md text-4xl font-bold text-center  text-white md:text-5xl md:text-center" >
+            World's Best Online Food Vendor
+        </h1>
+        <p class="max-w-sm text-center text-white md:text-center">
+            Enjoy a FREE appetizer of choice when you order Jennex Food for delivery and
+            take out! <br> Use code (123-456) at check out. T&Cs apply.
+        </p>
+        <div class="flex justify-center">
+            <a href="#" class="p-3 px-6 pt-2 text-white bg-orange-600 rounded-full self-baseline
+             hover:bg-orange-900"> Order Now</a>
+        </div> 
+    </div>
+</div>
+
+
+    <!--Our Products-->
+    <section id="products">
+    <div class=" container flex flex-col mt-20 space-y-12 items-center">
+        <h2 class="max-w-md text-3xl font-semibold">Our Products</h2>
+        <div class=" flex flex-row items-center justify-between space-x-72 ">
+            <img src="image/pizza_picture.jpg" alt="pizza_picture" class="max-w-sm w-40 h-32">
+            <img src="image/sandwich_picture.jpg" alt="pizza_picture" class=" hidden max-w-sm w-40 h-32
+            md:block">
+            <img src="image/chicken_picture.jpg" alt="pizza_picture" class=" hidden max-w-sm w-40 max-h-28
+            md:block">
+        </div>
+            <div class="flex items-center justify-between space-x-20 ">
+          <p class="max-w-sm text-xl font-light bg-white drop-shadow 
+          rounded-xl p-6">Lorem ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+         dolore eu fugiat nulla pariatur.
+                </p>
+          <p class=" hidden max-w-sm text-xl font-light  bg-white drop-shadow 
+          rounded-xl p-6 md:block">Lorem ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+         ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur.
+                      </p>
+               <p class=" hidden max-w-sm text-xl font-light  bg-white drop-shadow 
+               rounded-xl p-6 md:block">Lorem ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur.
+                          </p>
+            </div>
+
+        
+    </div>
+</section>
+<!--About Our Company-->
+<section id="about">
+    <div class="container flex flex-col mt-20 space-x-12 items-center justify-between">
+        <h2 class="max-w-md text-3xl font-semibold">About Our Company</h2>
+        <div class="flex space-x-36 mt-24 justify-start">
+            <div class="flex flex-col space-y-6">
+                <h3 class=" max-w-sm text-2xl text-orange-600">Our Location</h3>
+                <p class=" max-w-sm text-o.5xl">Etiam eu luctus ipsum, rhoncus semper magna. 
+                    <br>Nulla nec magna sit amet sem interdum 
+                    condimentum.Lorem dolor ipsum sit amet, consectur adispiscing elit.  
+                     Ut enim ad minim veniam, quis nostrud exercitation ullamco <br> laboris nisi ut aliquip ex
+                    ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+                     <br>cillum
+                   dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+            <div class="flex flex-col space-y-6">
+                <h3 class="max-w-sm text-2xl text-orange-600">Delivery Service</h3>
+                <p class="max-w-sm text-o.5xl">Etiam eu luctus ipsum, rhoncus semper magna.
+                     <br>Nulla nec magna sit amet sem interdum 
+                    condimentum.Lorem dolor ipsum sit amet, consectur adispiscing elit.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco <br> laboris nisi ut aliquip ex
+                    ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+                     <br>cillum
+                   dolore eu fugiat nulla pariatur.
+                 
+                </p>
+                <a href="#" class="p-3 px-6 pt-2 text-white bg-orange-600 rounded-full self-baseline
+                hover:bg-orange-900"> Order Now</a>
+            </div>       
+        </div>
+    </div>
+</section>
+<!--Contact Us-->
+<section id="contact">
+    <div class="container flex flex-col mt-20 space-y-6 space-x-6 items-center
+     justify-between mx-auto my-auto bg-black md:space-x-12  w-full" >
+        <h2 class=" hidden max-w-md text-3xl font-semibold text-white pt-6 md:block">Contact Us</h2>
+        <div class="flex flex-col-reverse space-y-12  mt-24 justify-start md:flex-row md:space-x-36">
+            <div class="flex flex-col space-y-6  pt-6">
+                <p class="max-w-sm text-0.5xl font-semibold text-white">Stay Informed.
+                     <br> Sign Up for our Newsletter</p>
+            </div>
+            <div class="flex space-x-6">
+                <input type="email" name="email" id="email" placeholder="Your Email Address"
+                class="flex-1 px-4 rounded-full focus:outline-none">
+                <button class="px-6 py-2 text-white rounded-full bg-orange-600 hover:bg-orange-300
+                focus:outline-none ">Suscribe</button>
+            </div>
+        </div>
+        <div class="flex justify-between space-x-6 md:space-x-80">
+            <div class="flex flex-col space-y-3">
+            <p class="text-white ">Jennex Food Official Headquaters <br> 26 Addison Avenue, West City
+                <p class="text-white font-light">PO Box 123456</p>
+            </p>
+        </div>
+        <div class="flex flex-col space-y-3">
+            <p class="text-white">jennexfood.org</p>
+            <div class="bg-white rounded-full flex space-x-6 p-3" >
+                <img src="image/instagram_icon.png" alt="" class="max-w-sm w-6 h-6">
+                <img src="image/youtube_icon_136006.png" alt="" class="max-w-sm w-6 h-6">
+                <img src="image/logo-facebook-512.png" alt="" class="max-w-sm w-6 h-6">
+            </div>
+            
+        </div>
+     </div>
+     <div>
+        <p class="text-white p-2 font-thin">Copyright &copy 2023 All Rights Reserved</p>
+     </div>
+</div>
+</section>
+<script src="js/index.js"></script>
+
+    
+    
+</body>
+</html>
